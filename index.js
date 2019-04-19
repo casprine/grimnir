@@ -1,20 +1,13 @@
 #!/usr/bin/env node
 
-const prog = require("caporal");
+const prog = require('caporal');
+const createCmd = require('./lib/create');
 
 prog
-  .version("1.0.0")
-  .command("create", "create a new application")
-  .argument("<template>", "Template to use")
-  .option(
-    "--variant <variatn> ",
-    "which <variant> of the template is going to be used"
-  )
-  .action((args, options, logger) => {
-    console.log({
-      args: args,
-      options: options
-    });
-  });
+  .version('1.0.0')
+  .command('create', 'create a new application')
+  .argument('<template>', 'Template to use')
+  .option('--variant <variant>', 'Which <variant> of the template is going to be created')
+  .action(createCmd);
 
 prog.parse(process.argv);
