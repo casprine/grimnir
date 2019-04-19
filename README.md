@@ -22,6 +22,14 @@ Install with yarn:
 yarn global add grimnir
 ```
 
+## 🔥 Scaffold
+
+scaffold a simple react project with code-splitting and time travel debugging
+
+```bash
+grimnir create new-blog react
+```
+
 ### ✨ All CLI Options
 
 ```
