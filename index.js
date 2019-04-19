@@ -4,9 +4,10 @@ const prog = require('caporal');
 const createCmd = require('./lib/create');
 
 prog
-  .version('1.0.0')
+  .version('0.1')
   .command('create', 'create a new application')
-  .argument('<template>', 'Template to use')
+  .argument('<name>', 'name of application')
+  .argument('<template-name>', 'template to use')
   .option('--variant <variant>', 'Which <variant> of the template is going to be created')
   .action(createCmd);
 
