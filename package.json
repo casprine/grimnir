@@ -1,7 +1,7 @@
 {
-  "name": "undergod",
-  "version": "1",
-  "description": "a cli tool to get shit done fast",
+  "name": "grimnir",
+  "version": "0.1",
+  "description": "a clit tool for quick project scafollding",
   "author": "casprine",
   "license": "MIT",
   "private": true,
