@@ -1,13 +1,18 @@
 {
   "name": "grimnir",
   "version": "1.0.0",
+  "description": "A simple project scaffolder cli tool",
+  "private": true,
   "main": "index.js",
+  "author": "casprine <casprine.001@gmail.com>",
+  "license": "MIT",
   "bin": {
     "grimnir": "index.js"
   },
   "dependencies": {
     "caporal": "^0.3.0",
     "colors": "^1.1.2",
+    "listr": "^0.14.3",
     "prompt": "^1.0.0",
     "shelljs": "^0.7.7"
   }

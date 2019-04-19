@@ -1,9 +1,9 @@
 {
-  "name": "undergod",
-  "version": "1",
-  "description": "a cli tool to get shit done fast",
-  "author": "casprine",
-  "license": "MIT",
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "author": "[AUTHOR]",
+  "license": "[LICENSE]",
   "private": true,
   "devDependencies": {
     "babel-plugin-styled-components": "^1.5.1",
