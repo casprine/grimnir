@@ -2,7 +2,7 @@
   <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/ghost_1f47b.png" width="100" height="100" alt="grimnir">
 </p>
 <h1 align="center">Grimnir</h1>
-<p align="center"> 👻 A simple project scaffolder cli tool</p>
+<p align="center"> ⿁ A simple project scaffolder cli tool</p>
 
 ---
 
@@ -22,24 +22,34 @@ Install with yarn:
 yarn global add grimnir
 ```
 
-## 🔥 Scaffold
+## 🔥 Usage
 
-scaffold a simple react project with code-splitting and time travel debugging
+- scaffold a simple react project with code-splitting and HMR
 
 ```bash
 grimnir create new-blog react
+```
+
+- scaffold a react project with mobx-react, formik, axios and helper components.
+
+```bash
+grimnir create new-blog react --variant mobx
 ```
 
 ### ✨ All CLI Options
 
 ```
   Usage
-    $ grimnir create <name> <template-name>
+    $ grimnir create <name> <template-name> [option]
 
 
   Arguments
     <name>              name of application         reqiured
     <template-name>     name of template to use     required
+
+
+  Options
+   --variant <variant>   which <variant> of the template to use   optional
 
 
 Global Options
@@ -55,6 +65,7 @@ Global Options
 To do for Grimnir:
 
 - [ ] Add support to create component
+- [ ] Add support to add lib to a projects [mobx , formik , axios]
 - [ ] Support for Next.js
 - [ ] Support for Gatsby
 - [ ] Support for React Native
