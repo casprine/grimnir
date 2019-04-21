@@ -66,7 +66,10 @@ To do for Grimnir:
 
 - [ ] Add support to create component
 - [ ] Add support to add lib to a projects [mobx , formik , axios]
-- [ ] Support for Next.js
-- [ ] Support for Gatsby
-- [ ] Support for React Native
+- [ ] Support for Next.js --mobx
+- [ ] Support for Gatsby --mobx
+- [ ] Support for React Native --mobx
 - [ ] Use listr-like to start tasks
+- [ ] Add base css library
+- [ ] Add helper function [localStorage]
+- [ ] Add pre-commit hooks for lint:css 
