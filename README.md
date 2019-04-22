@@ -69,9 +69,18 @@ To do for Grimnir:
 - [ ] Support for Gatsby --mobx
 - [ ] Support for React Native --mobx
 - [ ] Support to create component
-- [ ] Support to add lib to a projects [mobx , formik , axios]
 - [ ] Use listr-like to start tasks
 - [ ] Add base css library
 - [ ] Add pre-commit hooks for lint:css
 - [ ] Helpers utilities
 - [ ] Abstract templates into another repo and be pull from there
+- [ ] Work on licensing
+
+## ⿁ Features
+
+Adding specific parts to an existing project
+
+- [ ] Dark mode
+- [ ] Mobx
+- [ ] Axios
+- [ ] Formik
