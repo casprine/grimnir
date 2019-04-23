@@ -75,6 +75,9 @@ To do for Grimnir:
 - [ ] Helpers utilities
 - [ ] Abstract templates into another repo and be pull from there
 - [ ] Work on licensing
+- [ ] Move all extra stuff into sperate folder
+- [ ] Use abstractions [with-mobx]
+- [ ] Use setup like create-next-app
 
 ## ⿁ Features
 

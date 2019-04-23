@@ -1,0 +1,37 @@
+{
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "author": "[AUTHOR]",
+  "license": "[LICENSE]",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "next": "^8.0.0",
+    "polished": "^3.2.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-scripts": "2.1.1",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "next build",
+    "prod": "NODE_ENV=production node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0"
+  }
+}

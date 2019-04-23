@@ -7,7 +7,7 @@
   "author": "casprine <casprine.001@gmail.com>",
   "license": "MIT",
   "bin": {
-    "grimnir": "index.js"
+    "grimnir": "./index.js"
   },
   "dependencies": {
     "caporal": "^0.3.0",
