@@ -1,0 +1,35 @@
+{
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "author": "[AUTHOR]",
+  "license": "[LICENSE]",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby": "^2.3.27",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "polished": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

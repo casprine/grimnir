@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Router from 'next/router';
+// import Router from 'next/router';
 import { CenteredDiv } from './index';
 
 // component to show if user is not authorized

@@ -64,8 +64,8 @@ Global Options
 
 To do for Grimnir:
 
-- [x] Support for react - mobx
-- [ ] Support for Next.js --mobx
+- [x] Support for react --mobx
+- [x] Support for Next.js --mobx
 - [ ] Support for Gatsby --mobx
 - [ ] Support for React Native --mobx
 - [ ] Support to create component
@@ -75,9 +75,10 @@ To do for Grimnir:
 - [ ] Helpers utilities
 - [ ] Abstract templates into another repo and be pull from there
 - [ ] Work on licensing
-- [ ] Move all extra stuff into sperate folder
-- [ ] Use abstractions [with-mobx]
+- [ ] Move all extra stuff into sperate folder [babel][prettier][readme][a11y]
 - [ ] Use setup like create-next-app
+- [ ] Change `create` to `new`
+- [ ] Ask user and set preferred package manager
 
 ## ⿁ Features
 
