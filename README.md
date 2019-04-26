@@ -40,7 +40,7 @@ grimnir create new-blog react --variant mobx
 
 ```
   Usage
-    $ grimnir create <name> <template-name> [option]
+    $ grimnir new <name> <template-name> [option]
 
 
   Arguments
@@ -66,7 +66,7 @@ To do for Grimnir:
 
 - [x] Support for react --mobx
 - [x] Support for Next.js --mobx
-- [ ] Support for Gatsby --mobx
+- [x] Support for Gatsby --mobx
 - [ ] Support for React Native --mobx
 - [ ] Support to create component
 - [ ] Use listr-like to start tasks
