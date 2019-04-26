@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-preset-gatsby": "^0.1.11",
+    "gatsby": "^2.3.27",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "polished": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

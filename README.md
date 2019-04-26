@@ -79,6 +79,8 @@ To do for Grimnir:
 - [ ] Use setup like create-next-app
 - [ ] Change `create` to `new`
 - [ ] Ask user and set preferred package manager
+- [ ] Add more details as to what user installed [mobx][amp]
+- [ ] New LICENSE & README file
 
 ## ⿁ Features
 
