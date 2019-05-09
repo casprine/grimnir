@@ -10,9 +10,17 @@
     "grimnir": "./index.js"
   },
   "dependencies": {
+    "arg": "^4.1.0",
     "caporal": "^0.3.0",
     "colors": "^1.1.2",
+    "inquirer": "^6.3.1",
     "prompt": "^1.0.0",
     "shelljs": "^0.7.7"
-  }
+  },
+  "keywords": [
+    "cli",
+    "create-project",
+    "react",
+    "scaffold"
+  ]
 }
