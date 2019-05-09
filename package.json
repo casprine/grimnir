@@ -7,12 +7,16 @@
   "author": "casprine <casprine.001@gmail.com>",
   "license": "MIT",
   "bin": {
-    "grimnir": "./index.js"
+    "grimnir": "./cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "arg": "^4.1.0",
     "caporal": "^0.3.0",
     "colors": "^1.1.2",
+    "esm": "^3.2.22",
     "inquirer": "^6.3.1",
     "prompt": "^1.0.0",
     "shelljs": "^0.7.7"
@@ -22,5 +26,19 @@
     "create-project",
     "react",
     "scaffold"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casprine/grimnir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/casprine/grimnir/issues"
+  },
+  "homepage": "https://github.com/casprine/grimnir#readme"
 }

@@ -1,14 +1,28 @@
-#!/usr/bin/env node
+import arg from 'arg';
 
-const prog = require('caporal');
-const createCmd = require('./lib/create');
+function parseArgumentsIntoOptions(rawArgs) {
+  const args = arg(
+    {
+      '--git': Boolean,
+      '--yes': Boolean,
+      '--install': Boolean,
+      '-g': '--git',
+      '-y': '--yes',
+      '-i': '--install',
+    },
+    {
+      argv: rawArgs.slice(2),
+    },
+  );
+  return {
+    skipPrompts: args['--yes'] || false,
+    git: args['--git'] || false,
+    template: args._[0],
+    runInstall: args['--install'] || false,
+  };
+}
 
-prog
-  .version('1.0.0')
-  .command('new', 'create a new application')
-  .argument('<name>', 'name of application')
-  .argument('<template-name>', 'template to use')
-  .option('--variant <variant>', 'Which <variant> of the template is going to be created')
-  .action(createCmd);
-
-prog.parse(process.argv);
+export function cli(args) {
+  let options = parseArgumentsIntoOptions(args);
+  console.log(options);
+}
