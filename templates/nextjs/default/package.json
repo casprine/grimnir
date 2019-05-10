@@ -15,7 +15,8 @@
     "styled-components": "^4.1.3"
   },
   "scripts": {
-    "start": "node server.js",
+    "server": "node server.js",
+    "start": "now dev",
     "build": "next build",
     "prod": "NODE_ENV=production node server.js"
   },
