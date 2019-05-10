@@ -1,5 +1,6 @@
 import arg from 'arg';
-import { async } from 'rxjs/internal/scheduler/async';
+import createProductQuestions from './lib/questions';
+import createNewProject from './lib/create';
 
 function parseArgumentsIntoOptions(rawArgs) {
   const args = arg(
@@ -18,42 +19,9 @@ function parseArgumentsIntoOptions(rawArgs) {
   };
 }
 
-async function promptForMissingOptions() {
-  const defaultTemplate = 'default';
-  const defaultStack = 'react';
-
-  if (options.skipPrompts) {
-    return {
-      ...options,
-      template: options.template || defaultTemplate,
-      stack: options.stack || defaultStack,
-    };
-  }
-
-  const questions = [];
-
-  if (!options.template) {
-    questions.push({
-      type: 'list',
-      name: 'stack',
-      message: 'Please choose which stack to use',
-      choices: ['React', 'Nextjs', 'Gatsby'],
-      defaultStack: defaultStack,
-    });
-  }
-
-  // add more state mangement services and move to list [redux, unstate]
-  if (!options.template) {
-    question.push({
-      type: 'confirm',
-      name: 'git',
-      message: 'Do you want Mobx include ?',
-      default: false,
-    });
-  }
-}
-
 export async function cli(args) {
   let options = parseArgumentsIntoOptions(args);
+  options = await createProductQuestions(options);
+  await createNewProject(options);
   console.log(JSON.stringify(options, null, 2));
 }
