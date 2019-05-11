@@ -10,7 +10,7 @@ class Index extends Component {
       <Fragment>
         <Layout>
           <CenteredDiv className="center">
-            <p className="name">[NAME]</p>
+            <p className="name">casprine</p>
             <p>
               Bootstrapped with{" "}
               <a

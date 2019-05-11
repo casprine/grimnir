@@ -1,9 +1,9 @@
 {
-  "name": "[NAME]",
+  "name": "casprine",
   "version": "[VERSION]",
-  "description": "[DESCRIPTION]",
-  "author": "[AUTHOR]",
-  "license": "[LICENSE]",
+  "description": "shit",
+  "author": "shit",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "gatsby build",
