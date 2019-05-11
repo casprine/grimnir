@@ -1,9 +1,9 @@
 {
-  "name": "casprine",
-  "version": "1.0.0",
-  "description": "shit",
-  "author": "shit",
-  "license": "MIT",
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "author": "[AUTHOR]",
+  "license": "[LICENSE]",
   "private": true,
   "dependencies": {
     "express": "^4.16.4",

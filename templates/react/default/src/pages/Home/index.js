@@ -6,7 +6,7 @@ import { em } from 'polished';
 const Home = () => (
   <Fragment>
     <StyledHome className="center">
-      <p className="name">casprine</p>
+      <p className="name">[NAME]</p>
       <p>
         Bootstrapped with{' '}
         <a href="https://github.com/casprine/grimnir" target="_blaknk">

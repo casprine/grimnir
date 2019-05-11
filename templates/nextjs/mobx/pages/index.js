@@ -14,10 +14,10 @@ export default class Index extends Component {
     return (
       <Fragment>
         <Head>
-          <title>casprine</title>
+          <title>[NAME]</title>
         </Head>
         <CenteredDiv className="center">
-          <p className="name">casprine</p>
+          <p className="name">[NAME]</p>
           <p>
             Bootstrapped with{' '}
             <a href="https://github.com/casprine/grimnir" target="_blaknk">

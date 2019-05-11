@@ -1,9 +1,9 @@
 {
-  "name": "casprine",
-  "version": "1.0.0",
-  "description": "shit",
-  "author": "shit",
-  "license": "MIT",
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "author": "[AUTHOR]",
+  "license": "[LICENSE]",
   "private": true,
   "dependencies": {
     "express": "^4.16.4",
@@ -15,8 +15,7 @@
     "styled-components": "^4.1.3"
   },
   "scripts": {
-    "server": "node server.js",
-    "start": "now dev",
+    "start": "node server.js",
     "build": "next build",
     "prod": "NODE_ENV=production node server.js"
   },
