@@ -67,26 +67,44 @@ To do for Grimnir:
 - [x] Support for react --mobx
 - [x] Support for Next.js --mobx
 - [x] Support for Gatsby --mobx
+- [x] Use listr-like to start tasks
+- [x] Work on licensing
+- [x] Move all extra stuff into sperate folder [babel][prettier][readme][a11y]
+- [x] Change `create` to `new`
+- [x] New LICENSE & README file
 - [ ] Support for React Native --mobx
 - [ ] Support to create component
-- [ ] Use listr-like to start tasks
 - [ ] Add base css library
 - [ ] Add pre-commit hooks for lint:css
 - [ ] Helpers utilities
-- [ ] Abstract templates into another repo and be pull from there
-- [ ] Work on licensing
-- [ ] Move all extra stuff into sperate folder [babel][prettier][readme][a11y]
 - [ ] Use setup like create-next-app
-- [ ] Change `create` to `new`
 - [ ] Ask user and set preferred package manager
 - [ ] Add more details as to what user installed [mobx][amp]
-- [ ] New LICENSE & README file
 
-## ⿁ Features
+## Options
+-  State Management
+ - [ ] mobx
+ - [ ] redux
+ - [ ] context
+ - [ ] unstate
 
-Adding specific parts to an existing project
 
-- [ ] Dark mode
-- [ ] Mobx
-- [ ] Axios
-- [ ] Formik
+- Stack
+ - [ ] react 
+   - [ ] gatsby
+   - [ ] nextjs 
+   - [ ] afterjs
+   - [ ] preact
+
+  - [ ] svelte  
+
+
+- Forms
+ - [ ] Hooks
+ - [ ] Formik
+
+
+- Data Fetching
+ - [ ] Axios
+ - [ ] Bluebird
+  
