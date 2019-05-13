@@ -12,7 +12,6 @@ const UnAuthorized = () => (
   </Fragment>
 );
 
-@withRouter
 class PrivateRoute extends Component {
   render() {
     const { component: Component, history, ...rest } = this.props;
@@ -32,4 +31,4 @@ class PrivateRoute extends Component {
   }
 }
 
-export default hot(module)(PrivateRoute);
+export default hot(module)(withRouter(PrivateRoute));
