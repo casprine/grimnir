@@ -1,21 +1,21 @@
 import arg from 'arg';
-import createProductQuestions from './lib/questions';
-import createNewProject from './lib/create';
+import createProductQuestions from './src/lib/questions';
+import createNewProject from './src/lib/create';
 
 function parseArgumentsIntoOptions(rawArgs) {
   const args = arg(
     {
       '-V': Boolean,
-      '--version': Boolean,
+      '--version': Boolean
     },
-    { argv: rawArgs.slice(2) },
+    { argv: rawArgs.slice(2) }
   );
 
   return {
     version: args['-v'] || false,
     function: args._[0], // get specific function to run
     projectName: args._[1], // get project name and create folder with it
-    stack: args._[2],
+    stack: args._[2]
   };
 }
 

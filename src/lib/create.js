@@ -1,11 +1,11 @@
 import execa from 'execa';
 import fs from 'fs';
-import colors from 'colors/safe';
 import { promisify } from 'util';
 import ncp from 'ncp';
 import shell from 'shelljs';
 import Listr from 'listr';
 import { projectInstall } from 'pkg-install';
+import { copyFile, color } from '../util';
 
 const copy = promisify(ncp);
 
@@ -27,12 +27,13 @@ async function createDir(options) {
    * else create a new one
    */
   if (fs.existsSync(localPath)) {
-    console.error(`Sorry but ${colors.green(projectName)} is already a directory name ☹️\n`);
+    console.error(`Sorry but ${color(projectName)} is already a directory name ☹️\n`);
     console.error(`Either try using a new directory name, or remove the directory.`);
     process.exit(1);
   } else {
     execa('mkdir', [localPath]);
     execa('cd', [localPath]);
+    c;
   }
 
   return {
@@ -63,7 +64,7 @@ async function copyConfigFiles(options, { localPath }) {
   });
 
   // copy and rename license using node.fs
-  await fs.copyFile(licenseDir, `${localPath}/LICENSE`, (error) => {
+  copyFile(licenseDir, `${localPath}/LICENSE`, (error) => {
     if (error) console.log(error);
     return;
   });
@@ -138,20 +139,20 @@ async function createNewProject(options) {
 Success! Created testing at ${dirDetails.localPath}
 Inside that directory, you can run several commands:
 
-${colors.cyan('yarn start')}
+${color('yarn start')}
     Starts the development server.
 
   
-${colors.cyan('yarn build')}
+${color('yarn build')}
     Bundles the app into static files for production.
 
-  ${color.cyan('yarn test')}
+  ${color('yarn test')}
     Starts the test runner.
 
 I suggest that you begin by typing:
 
-  ${colors.cyan('cd')} testing
-  ${colors.cyan('yarn start')}
+  ${color('cd')} testing
+  ${color('yarn start')}
 
 🔥 Happy hacking!
   `);
