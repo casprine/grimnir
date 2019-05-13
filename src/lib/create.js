@@ -20,7 +20,9 @@ async function createDir(options) {
   const variant = options.template;
   const projectName = options.projectName;
   const localPath = `${process.cwd()}/${projectName.toLowerCase()}`;
-  const templatePath = `${__dirname}/../templates/${stack}/${variant ? 'default' : 'mobx'}`;
+  const templatePath = `${__dirname}/../templates/${stack}/${variant ? 'mobx' : 'default'}`;
+
+  console.log(templatePath, variant, 'path');
 
   /*
    * check if folder name already exist
@@ -33,7 +35,6 @@ async function createDir(options) {
   } else {
     execa('mkdir', [localPath]);
     execa('cd', [localPath]);
-    c;
   }
 
   return {

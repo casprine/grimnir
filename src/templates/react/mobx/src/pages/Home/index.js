@@ -5,20 +5,20 @@ import { em } from 'polished';
 
 const Home = () => (
   <Fragment>
-    <StyledHome className="center">
-      <p className="name">All Father</p>
+    <StyledHome className='center'>
+      <p className='name'>[NAME]</p>
       <p>
         Bootstrapped with{' '}
-        <a href="https://github.com/casprine/grimnir" target="_blaknk">
+        <a href='https://github.com/casprine/grimnir' target='_blaknk'>
           Grimnir{' '}
-          <span role="img" label="grimnir-emoji">
+          <span role='img' label='grimnir-emoji'>
             ⿁
           </span>
         </a>
       </p>
       <p>
         Happy hacking
-        <span role="img" aria-label="hacker">
+        <span role='img' aria-label='hacker'>
           👨🏿‍💻🥳
         </span>
       </p>
