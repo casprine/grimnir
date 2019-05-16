@@ -22,8 +22,6 @@ async function createDir(options) {
   const localPath = `${process.cwd()}/${projectName.toLowerCase()}`;
   const templatePath = `${__dirname}/../templates/${stack}/${variant ? 'mobx' : 'default'}`;
 
-  console.log(templatePath, variant, 'path');
-
   /*
    * check if folder name already exist
    * else create a new one
@@ -39,7 +37,8 @@ async function createDir(options) {
 
   return {
     templatePath,
-    localPath
+    localPath,
+    projectName
   };
 }
 
@@ -152,7 +151,7 @@ ${color('yarn build')}
 
 I suggest that you begin by typing:
 
-  ${color('cd')} testing
+  ${color('cd')} ${dirDetails.projectName}
   ${color('yarn start')}
 
 🔥 Happy hacking!

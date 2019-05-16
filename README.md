@@ -80,31 +80,34 @@ To do for Grimnir:
 - [ ] Use setup like create-next-app
 - [ ] Ask user and set preferred package manager
 - [ ] Add more details as to what user installed [mobx][amp]
+- [ ] Make .gitignore project based
 
 ## Options
--  State Management
- - [ ] mobx
- - [ ] redux
- - [ ] context
- - [ ] unstate
 
+##### State Management
 
-- Stack
- - [ ] react 
-   - [ ] gatsby
-   - [ ] nextjs 
-   - [ ] afterjs
-   - [ ] preact
+- [ ] mobx
+- [ ] redux
+- [ ] context
+- [ ] unstate
 
-  - [ ] svelte  
+##### Stack
 
+- [ ] react
 
-- Forms
- - [ ] Hooks
- - [ ] Formik
+  - [ ] gatsby
+  - [ ] nextjs
+  - [ ] afterjs
+  - [ ] preact
 
+- [ ] svelte
 
-- Data Fetching
- - [ ] Axios
- - [ ] Bluebird
-  
+##### Forms
+
+- [ ] Hooks
+- [ ] Formik
+
+##### Data Fetching
+
+- [ ] Axios
+- [ ] Bluebird
