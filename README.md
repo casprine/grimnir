@@ -7,20 +7,13 @@
 ---
 
 ## 🔧 Installation
+The project has not been uploaded to npm yet so the only way to use it now is to clone it and link it.
+After cloning it, run 
 
-<h2 align="center">Install</h2>
-
-Install with npm:
-
-```bash
-npm install -g grimnir
+```bash 
+npm link grimninr
 ```
 
-Install with yarn:
-
-```bash
-yarn global add grimnir
-```
 
 ## 🔥 Usage
 
