@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">Grimnir</h1>
 <p align="center"> ⿁ A simple project scaffolder cli tool</p>
+<p align='center">  This project is still WIP, please feel free to contribute </p>
 
 ---
 
@@ -57,14 +58,15 @@ Global Options
 
 To do for Grimnir:
 
-- [x] Support for react --mobx
-- [x] Support for Next.js --mobx
-- [x] Support for Gatsby --mobx
+
 - [x] Use listr-like to start tasks
 - [x] Work on licensing
 - [x] Move all extra stuff into sperate folder [babel][prettier][readme][a11y]
 - [x] Change `create` to `new`
 - [x] New LICENSE & README file
+- [ ] Support for react --mobx , context , xstate 
+- [ ] Support for Next.js --mobx , context , xstate
+- [ ] Support for Gatsby --mobx , context , xstate
 - [ ] Support for React Native --mobx
 - [ ] Support to create component
 - [ ] Add base css library
@@ -83,11 +85,11 @@ To do for Grimnir:
 - [ ] redux
 - [ ] context
 - [ ] unstate
+- [ ] 
 
 ##### Stack
 
 - [ ] react
-
   - [ ] gatsby
   - [ ] nextjs
   - [ ] afterjs
