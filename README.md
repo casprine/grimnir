@@ -104,3 +104,4 @@ To do for Grimnir:
 
 - [ ] Axios
 - [ ] Bluebird
+- [ ] SWR 
